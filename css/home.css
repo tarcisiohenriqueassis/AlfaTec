@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+*:root{
+    color: var(--my-#fff);
+    color: var(--my-#f1f3f7);
+    color: var(--my-#f6f6f6);
+    color: var(--my-#a89f9f);
+    color: var(--my-#233032);
+    color: var(--my-#2f86d6);
+    color: var(--my-rgba(47, 134, 214, 1));
+
+
+  @font-face {
+     font-family: 'Poppins', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@100&display=swap');
+ 
+   }
+}
+
+
+
+
+
+
+
+
+header{
+    display: flex;
+    height: 127px;
+    background-color: #fff;
+}
+.cabecario-topo{
+    display: flex;
+    margin: 15px auto;
+}
+.cabecario-topo figcaption{
+    display: inline-grid;
+    transform: translateY(-45px);
+    margin: 20px;
+}
+.cabecario-topo figcaption p{
+    color: #2f86d6;
+    font-weight: 600;
+}
+.topo-navegacao{
+    display: flex;
+    margin: auto;
+}
+.topo-navegacao nav a{
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 11px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.topo-navegacao nav a:hover{
+    color:#2f86d6;
+}
+#banner{
+    display: flex;
+    background-color: #2f86d6;
+}
+#banner .texto-banner{
+    display: inline;
+    text-align: inherit;
+    margin: 11%;
+    color: #fff;
+}
+#banner .texto-banner h2{
+    padding: 15px 0px;
+}
+#banner figure img{
+    padding-top: 1%;
+}
+.primeira-propaganda {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #000;
+}
+.primeira-propaganda .texto-primeira-propaganda{
+    color: #fff;    
+    margin-right: 140px;
+}
+.primeira-propaganda .link-primeira-propaganda{
+    display: inline-block;
+    background-color: #2f86d6;
+    color: #fff;
+    padding: 16px 23px;
+    border-radius: 6%;
+    font-weight: 600;
+}
+.primeira-propaganda .link-primeira-propaganda nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.primeira-propaganda .link-primeira-propaganda nav a:hover{
+    color: rgba(0, 0, 0, 0.555);
+}
+ .link-primeira-propaganda a::before{
+   content:"\1F680";
+   padding-right: 10px;
+}
+.container-servicos-hospedagem .imagens{
+    margin:25px auto;
+}
+.container-servicos-hospedagem .imagens figure{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-servicos-hospedagem > h3{
+    width: 70%;
+    font-size: 2em;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.container-servicos-hospedagem h3 span{
+    color: #2f86d6;
+}
+.container-servicos-descricao{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.container-servicos-descricao section p{
+    width: 167px;
+    font-size: 17px;
+    margin: auto;
+}
+
+.container-planos{
+    background-color: #c0c0c026;
+}
+.texto-topo-planos{
+    font-size:1.6em;
+    margin-top: 38px;
+    text-align: center;
+    padding-top: 38px;
+}
+.texto-topo-planos span{
+    color: #2f86d6;
+}
+.container-planos-sections{
+    width: fit-content;
+    text-align: center;
+    margin: 65px auto;
+    box-shadow:0px 0px 30px 10px #2f86d6;
+    padding: 35px 20px 25px 20px;
+    background-color: white;
+}
+.plano-pessoal, .plano-profissional, .plano-empresarial, .plano-bigtechs{
+    display: inline-block;
+    margin: 0px 15px;
+}
+.container-planos-sections h4{
+    padding-bottom: 15px;
+}
+.container-planos-sections p{
+    padding: 10px;
+    border: 1px solid #c0c0c040;
+}
+.container-planos figcaption{
+    font-size: 12px;
+    color: #999999b8;
+    padding-bottom: 30px;
+}
+.segunda-propaganda{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 103px;
+    background-color: #2f86d6;
+}
+.segunda-propaganda h3{
+    color: #fff;
+    padding-left: 39px;
+}
+.segunda-propaganda a{
+    margin-right: 41px;
+    padding: 16px 23px;
+    border-radius: 6%;
+    font-weight: 600;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+}
+.segunda-propaganda a:hover{
+    color: #2f85d696;
+}
+ .segunda-propaganda a::before{
+   content:"\1F680";
+   padding-right: 10px;
+}
+footer{
+    padding-top: 55px;
+    text-align: center;
+}
+footer .container-logo-rodape{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+}
+footer .section-texto-logo-rodape{
+    padding: 10px;
+}
+footer .section-texto-logo-rodape h4{
+    font-size: 1.7em;
+}
+footer .section-texto-logo-rodape p{
+    font-size: smaller;
+    color: #2f86d6;
+    font-weight: 600;
+}
+footer .contato p{
+    font-family:Arial, Helvetica, sans-serif ;
+    padding: 10px;
+}
+footer .contato a{
+    text-decoration: none;
+    color: #000;
+    font-weight: normal;
+}
+footer .contato a:hover{
+    color: #282424ba;
+}
+
+footer .botao-topo{
+    display: flex;
+    justify-content: flex-end;
+    font-size: xx-large;
+    position: relative;
+}
+footer .botao-topo a{
+    position: absolute;
+    top: -200px;
+    margin-right: 160px;
+}
+

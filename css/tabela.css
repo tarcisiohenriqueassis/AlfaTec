@@ -1,0 +1,137 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Poppins', sans-serif;
+}
+*:root{
+    color: var(--my-#fff);
+    color: var(--my-#f1f3f7);
+    color: var(--my-#f6f6f6);
+    color: var(--my-#a89f9f);
+    color: var(--my-#233032);
+    color: var(--my-#2f86d6);
+    color: var(--my-rgba(47, 134, 214, 1));
+    
+    @font-face {
+        font-family:'Poppins', sans-serif;
+       src: url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@100&display=swap');
+    
+      }
+}
+
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2f86d6;
+}
+.container-texto-logo{
+    display: flex;
+    margin-top: 10px;
+}
+header .container-texto-logo div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+header .container-texto-logo div p{
+    color: #f6f6f6;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header nav a{ 
+    color: #fff;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 15px;
+}
+header nav a:hover{
+    color: #141313;
+}
+
+table{
+    display: flex;
+    margin: 40px auto;
+    flex-direction: column
+}
+table thead{
+    width:56%;
+    display: flex;
+    position: relative;
+    left: 447px;
+    flex-direction: column;
+    background-color: #c0c0c06b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+table  thead .linha-tipos-de-planos{
+    display: flex;
+    margin-left: -74px;
+    font-size: x-small;
+    color: #5c5c5cde;
+    justify-content: center;
+}
+table thead .linha-tipos-de-planos th{
+    padding: 0px 48px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+
+table thead .valores-planos{
+    display: flex;
+    padding: 8px 0px;
+    justify-content: center;
+}
+table thead .valores-planos th{
+    position: relative;
+    left: 5px;
+    padding: 0px 112px 0px 35px;
+    letter-spacing: 1px;
+}
+table tbody{
+    font-weight: 900;
+   margin: auto;
+}
+table tbody .texto-lateral{
+    font-size: 15px;
+    background-color: #c0c0c06b;
+    color: #000;
+    border: 1px solid #00000014;
+}
+table tbody td {
+    color: #233032;
+    text-align: center;
+    padding: 21px 32px;
+    font-size: 13px;
+    border: 1px solid #00000014;
+}
+footer{
+    padding-bottom: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+footer .container-logo-rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+    padding: 15px 0px;
+    background-color: #2f86d6;
+}
+footer .container-logo-rodape h4{
+    text-align: left;
+    padding-left: 10px;
+}
+footer .container-logo-rodape h4 span{
+    color: #f1f3f7;
+}
+footer .container-texto-rodape span ,p{
+    font-weight: 700;
+}
+footer .container-texto-rodape span{
+    color: rgb(221, 0, 0);
+}
